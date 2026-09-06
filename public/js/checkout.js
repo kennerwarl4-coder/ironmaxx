@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const BUNDLE_PRICE = 149.90;
+  const BUNDLE_PRICE = 4.00;
   const CART_KEY = 'ignite_cart';
 
   const $ = (sel, ctx) => (ctx || document).querySelector(sel);

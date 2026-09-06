@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const BUNDLE_PRICE = 149.90;
+  const BUNDLE_PRICE = 4.00;
   const PIX_DISCOUNT = 0.05;
   const INSTALLMENTS = 4;
   const FULL_PRICE = 399.90; // preço cheio (peças avulsas)
