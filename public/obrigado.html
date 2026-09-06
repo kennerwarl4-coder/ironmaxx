@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1053979560754141');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1053979560754141&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- UTMify -->
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+
+<title>Pedido Confirmado — IRONMAXX</title>
+<meta name="description" content="Seu pagamento foi confirmado. Em breve você recebe os detalhes do pedido no seu e-mail.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="imagens/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="checkout-header">
+  <div class="container checkout-header__row">
+    <a href="/" class="logo">
+      <img src="imagens/logo.png" alt="Ironmaxx" class="logo__img" width="320" height="236">
+    </a>
+    <div class="checkout-header__secure">
+      <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 8.4-8 11-4.6-2.6-8-6-8-11V5z"/></svg>
+      <span>Ambiente seguro</span>
+    </div>
+  </div>
+</header>
+
+<main class="checkout-page">
+  <div class="checkout-success container">
+    <div class="checkout-success__icon">
+      <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    </div>
+    <h1>Pagamento confirmado!</h1>
+    <p>
+      Recebemos seu pagamento via Pix. Em breve você vai receber no e-mail
+      <strong id="thanksEmail">seu e-mail</strong> a confirmação do pedido — e assim que despacharmos,
+      o código de rastreio do envio, feito em embalagem reforçada com frete grátis para todo o Brasil.
+    </p>
+
+    <div class="checkout-success__card" id="thanksCard">
+      <div class="checkout-summary__row"><span>Pedido</span><span id="thanksOrderId">—</span></div>
+      <div class="checkout-summary__row"><span>Pagamento</span><span id="thanksPayment">Pix</span></div>
+      <div class="checkout-summary__row checkout-summary__row--total"><span>Total pago</span><span id="thanksTotal">R$0,00</span></div>
+    </div>
+
+    <p class="checkout-success__note">Não recebeu o e-mail em alguns minutos? Confira também a caixa de spam
+    ou fale com a gente pelo WhatsApp.</p>
+
+    <a href="/" class="btn-add checkout-success__back">Voltar para a loja</a>
+  </div>
+</main>
+
+<script src="js/tracking.js"></script>
+<script src="js/obrigado.js"></script>
+</body>
+</html>

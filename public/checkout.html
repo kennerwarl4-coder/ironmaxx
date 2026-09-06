@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1053979560754141');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1053979560754141&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- UTMify -->
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+
+<title>Finalizar Compra — IRONMAXX</title>
+<meta name="description" content="Finalize a compra do seu Kit Halteres Ajustáveis Ironmaxx com frete grátis para todo o Brasil.">
+<link rel="icon" type="image/png" href="imagens/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Archivo+Black&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+
+<!-- ============ CHECKOUT HEADER ============ -->
+<header class="checkout-header">
+  <div class="container checkout-header__row">
+    <a href="/" class="logo">
+      <img src="imagens/logo.png" alt="Ironmaxx" class="logo__img" width="320" height="236">
+    </a>
+    <div class="checkout-header__secure">
+      <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 8.4-8 11-4.6-2.6-8-6-8-11V5z"/></svg>
+      <span>Ambiente seguro</span>
+    </div>
+  </div>
+</header>
+
+<main class="checkout-page">
+  <div class="container checkout-layout" id="checkoutLayout">
+
+    <div class="checkout-main">
+      <h1 class="checkout-title">Finalizar compra</h1>
+
+      <ol class="checkout-steps" id="checkoutSteps">
+        <li class="checkout-steps__item">
+          <span class="checkout-steps__dot">1</span>
+          <span class="checkout-steps__label">Identificação</span>
+        </li>
+        <li class="checkout-steps__line"></li>
+        <li class="checkout-steps__item">
+          <span class="checkout-steps__dot">2</span>
+          <span class="checkout-steps__label">Entrega</span>
+        </li>
+        <li class="checkout-steps__line"></li>
+        <li class="checkout-steps__item">
+          <span class="checkout-steps__dot">3</span>
+          <span class="checkout-steps__label">Pagamento</span>
+        </li>
+      </ol>
+
+      <form id="checkoutForm" novalidate>
+
+        <!-- ============ STEP 1 — IDENTIFICAÇÃO ============ -->
+        <section class="checkout-card" id="step1" data-step-card="1">
+          <div class="checkout-card__head">
+            <span class="checkout-card__num">1</span>
+            <h2>Identificação</h2>
+            <button type="button" class="checkout-card__edit" data-edit="1">Editar</button>
+          </div>
+
+          <div class="checkout-card__body">
+            <div class="field">
+              <label for="fullName">Nome completo</label>
+              <input type="text" id="fullName" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" placeholder="(11) 99999-9999" required>
+              </div>
+              <div class="field">
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" placeholder="000.000.000-00" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-card__summary"></div>
+        </section>
+
+        <!-- ============ STEP 2 — ENTREGA ============ -->
+        <section class="checkout-card" id="step2" data-step-card="2">
+          <div class="checkout-card__head">
+            <span class="checkout-card__num">2</span>
+            <h2>Entrega</h2>
+            <button type="button" class="checkout-card__edit" data-edit="2">Editar</button>
+          </div>
+
+          <div class="checkout-card__body">
+            <div class="field-row">
+              <div class="field">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" placeholder="00000-000" required>
+              </div>
+              <div class="field">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" placeholder="Sua cidade" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="address">Endereço</label>
+              <input type="text" id="address" placeholder="Rua, número, bairro" required>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="complement">Complemento (opcional)</label>
+                <input type="text" id="complement" placeholder="Apto, bloco...">
+              </div>
+              <div class="field field--sm">
+                <label for="state">Estado</label>
+                <input type="text" id="state" placeholder="UF" maxlength="2" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Frete</label>
+              <div class="option-group" id="shippingOptions">
+                <label class="option-card selected">
+                  <input type="radio" name="shipping" value="free" data-price="0" data-label="Frete Grátis" checked>
+                  <span class="option-card__main">
+                    <span class="option-card__top">
+                      <strong>Frete Grátis</strong>
+                      <span class="option-card__price">Grátis</span>
+                    </span>
+                    <small>Chega em até 14 dias úteis</small>
+                  </span>
+                </label>
+                <label class="option-card">
+                  <input type="radio" name="shipping" value="express" data-price="27.90" data-label="Frete Expresso">
+                  <span class="option-card__main">
+                    <span class="option-card__top">
+                      <strong>Frete Expresso</strong>
+                      <span class="option-card__price">R$27,90</span>
+                    </span>
+                    <small>Chega em até 2 dias úteis</small>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-card__summary"></div>
+        </section>
+
+        <!-- ============ STEP 3 — PAGAMENTO ============ -->
+        <section class="checkout-card" id="step3" data-step-card="3">
+          <div class="checkout-card__head">
+            <span class="checkout-card__num">3</span>
+            <h2>Pagamento</h2>
+          </div>
+
+          <div class="checkout-card__body">
+            <div class="option-group" id="paymentOptions">
+              <label class="option-card selected">
+                <input type="radio" name="payment" value="pix" checked>
+                <img src="imagens/pix.webp" alt="Pix" class="option-card__icon" width="960" height="341">
+                <span class="option-card__info">
+                  <strong>Pagamento via Pix</strong>
+                  <small>Aprovação instantânea</small>
+                </span>
+              </label>
+              <label class="option-card option-card--disabled">
+                <input type="radio" name="payment" value="card" disabled>
+                <span class="option-card__icon option-card__icon--card">
+                  <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                </span>
+                <span class="option-card__info">
+                  <strong>Cartão de crédito</strong>
+                  <small>Em breve</small>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="checkout-card__summary"></div>
+        </section>
+
+      </form>
+
+      <!-- ============ PIX PAYMENT PANEL ============ -->
+      <section class="checkout-pix" id="pixPanel" hidden>
+        <div class="checkout-pix__header">
+          <span class="checkout-pix__icon">
+            <svg viewBox="0 0 24 24"><path d="M8 3 3 8v8l5 5h8l5-5V8l-5-5z"/></svg>
+          </span>
+          <h1>Pague com Pix para confirmar</h1>
+          <p>Escaneie o QR Code com o app do seu banco ou copie o código abaixo</p>
+        </div>
+
+        <div class="checkout-pix__amount-box">
+          <span>Total a pagar</span>
+          <strong id="pixAmount">R$149,90</strong>
+        </div>
+
+        <div class="checkout-pix__qr-wrap">
+          <img class="checkout-pix__qr" id="pixQrImage" alt="QR Code do Pix" hidden>
+        </div>
+
+        <div class="checkout-pix__divider"><span>ou copie o código</span></div>
+
+        <label class="checkout-pix__code-label">Pix copia e cola</label>
+        <div class="checkout-pix__code">
+          <input type="text" id="pixCode" readonly>
+          <button type="button" id="pixCopyBtn" class="checkout-pix__copy">
+            <svg class="icon-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+            <svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            <span class="checkout-pix__copy-label">Copiar</span>
+          </button>
+        </div>
+
+        <ol class="checkout-pix__steps">
+          <li>Abra o app do seu banco</li>
+          <li>Escolha pagar via Pix</li>
+          <li>Escaneie o QR Code ou cole o código copiado</li>
+        </ol>
+
+        <div class="checkout-pix__status" id="pixStatus">
+          <span class="checkout-pix__spinner"></span>
+          <span class="checkout-pix__status-text">
+            <strong>Aguardando confirmação do pagamento...</strong>
+            <small>Isso pode levar alguns instantes após o pagamento</small>
+          </span>
+        </div>
+
+        <button type="button" class="checkout-pix__check" id="pixCheckNow">Já paguei, verificar agora</button>
+      </section>
+
+    </div>
+
+    <div class="checkout-cta-bar">
+      <button type="button" class="btn-add checkout-cta" id="checkoutCta">
+        <span id="checkoutCtaLabel">Ir para entrega</span>
+        <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+
+    <aside class="checkout-summary">
+      <div class="checkout-summary__card">
+        <h3>Resumo do pedido</h3>
+
+        <div class="checkout-summary__product">
+          <img src="imagens/capa-product02.png" alt="Kit Halteres Ajustáveis Ironmaxx" width="1254" height="1254" loading="lazy">
+          <div class="checkout-summary__product-info">
+            <span class="checkout-summary__name">Kit Halteres Ajustáveis Ironmaxx</span>
+            <span class="checkout-summary__qty" id="summaryQty">Qtd: 1</span>
+          </div>
+          <span class="checkout-summary__price" id="summaryItemPrice">R$149,90</span>
+        </div>
+
+        <div class="checkout-summary__rows">
+          <div class="checkout-summary__row">
+            <span>Subtotal</span>
+            <span id="summarySubtotal">R$149,90</span>
+          </div>
+          <div class="checkout-summary__row">
+            <span>Frete</span>
+            <span id="summaryShipping" class="text-accent">Grátis</span>
+          </div>
+        </div>
+
+        <div class="checkout-summary__total">
+          <span>Total</span>
+          <span id="summaryTotal">R$149,90</span>
+        </div>
+
+        <div class="checkout-summary__secure">
+          <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 8.4-8 11-4.6-2.6-8-6-8-11V5z"/></svg>
+          Compra 100% segura
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/tracking.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
